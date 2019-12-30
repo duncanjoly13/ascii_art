@@ -2,7 +2,7 @@
 from PIL import Image
 
 # Decide what image to convert, and make it 1/3 the size
-image = Image.open("ctycgchr36231.jpg")
+image = Image.open("image.jpg")
 image = image.resize((int(image.width / 3), int(image.height / 3)))
 
 # Define the ASCII characters and the variables
